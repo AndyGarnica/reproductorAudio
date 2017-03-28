@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title> Reproductor de Música </title>
+  </head>
+  <body>
+    <section>
+      <audio id="audio">
+        <source src="/Users/elsaandreagarnicareyes/Desktop/reproductorMP3/Led Zeppelin - Whole Lotta Love.mp3" type="audio/mpeg">
+      </audio>
+      <button id="play" onclick="reproducir();">Play</button>
+      <button id="pause" onclick="pausar();">Pause</button>
+      <button id="stop" onclick="parar();">Stop</button>
+      <button id="foward" value="+" onclick="avanzar(this.value);">></button>
+      <button id="rewid" value="-" onclick="avanzar(this.value);"><</button>
+      <button id="vol" onclick="masVolumen();">+</button>
+      <button id="vol-" onclick="menosVolumen();">-</button>
+    </section>
+  <script src="js/reproductorMusica.js"></script>
+  </body>
+</html>
